@@ -1,0 +1,18 @@
+Step 1: Ensure that XAMPP is installed on your desktop
+Step 2: Ensure that VS Code is installed on your desktop
+Step 3: Ensure that Composer is installed on your desktop
+Step 4: Copy the project code folder named "ecomm" and paste in Xampp/htdocs folder
+Step 5: Import Database named "ecomm.sql" into the Xampp control panel -> mysql admin server
+Step 6: Start Apache and mysql in Xampp Control Panel
+Step 7: Open browser and search "localhost/ecomm"
+
+For Login:
+user1=		email: user1@gmail.com		password: user1
+seller1= 	email: seller1@gmail.com 	password: seller1
+seller2= 	email: seller2@gmail.com 	password: seller2
+admin= 		email: admin@gmail.com 		password: admin
+
+note:	user will be signin/signup from top of the buttons
+	seller will be signin/signup from links in footer
+	for admin login: 
+	open browser and search "localhost/ecomm/adminlogin

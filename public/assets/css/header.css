@@ -1,0 +1,138 @@
+.navbar{
+    /* background-color: rgb(10, 0, 155) !important; */
+}
+.nav-link.active {
+    color: blue !important;
+    text-decoration: underline;
+    transform: scale(1.1);
+    font-weight: bold;
+    transition: transform 0.03s ease, blue 0.3s ease;
+}
+.dropdown-item{
+    background-color: transparent !important;
+}
+.dropdown-item:hover{
+    color: blue !important;
+    text-decoration: underline;
+    transform: scale(1.1) translateX(7px);
+    transition: transform 0.3s ease, rgb(98, 98, 255) 0.3s ease;
+}
+.nav-link:hover{
+    color: blue !important;
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: transform 0.3s ease, rgb(98, 98, 255) 0.3s ease;
+}
+.nav-link {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333 !important;
+    text-transform: uppercase;
+    /* letter-spacing: 1.5px; */
+    transition: color 0.5s ease;
+}
+.navbar-brand:hover {
+    color: blue !important;
+}
+.all-front-containers{
+    margin-top: 50px !important;
+    width: 96% !important;
+    background-color: rgb(230, 230, 230);
+    border-radius: 40px !important;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.imgfront{
+    margin-top: 0% !important;
+    width: 100% !important;
+    height: auto !important;
+    -webkit-filter: drop-shadow(7px 7px 7px #666666);
+        filter: drop-shadow(7px 7px 7px #666666);
+        transition: transform 0.3s ease, color 0.3s ease;
+}
+.imgfront:hover{
+    transform: rotate(4deg) scale(1.04);
+    transition: transform 0.3s ease, rgb(98, 98, 255) 0.3s ease;
+}
+.home-product-card{
+    border-radius: 7px !important;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.home-product-card:hover{
+    transform: scale(1.04);
+    transition: transform 0.3s ease, rgb(98, 98, 255) 0.3s ease;
+}
+.view-more-button:hover{
+    background-color: rgb(230, 230, 230) !important;
+}
+.product-sell-image{
+    border-radius: 30px;
+}
+.input-quantity{
+    border-color: rgb(98, 98, 255);
+    border-radius: 7px;
+    outline: none;
+}
+.footer-link{
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.footer-link:hover{
+    color: blue !important;
+    text-decoration: underline;
+    transform: scale(1.04) translateX(2px);
+    transition: transform 0.3s ease, rgb(98, 98, 255) 0.3s ease;
+}
+.carousel-caption {
+    width: 500px !important;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent background for the caption */
+    backdrop-filter: blur(4px); /* Blurs the background behind the caption */
+    border-radius: 100px; /* Optional: Rounded corners */
+  }
+  .carousel-caption2{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 20px;
+    text-align: center;
+    width: 700px;
+    flex-direction: column;
+  }
+  .carousel-caption2 p{
+    width: 600px;
+  }
+  
+  /* .carousel-caption h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  } */
+  
+  .carousel-caption p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .carousel-caption.d-none.d-md-block {
+      display: block !important;
+    }
+  }
+  .carousel-caption-btn{
+    margin-top: 0px;
+  }
+  .carousel-caption-btn:hover{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    color: white !important;
+    border-color: white !important;
+  }
+  

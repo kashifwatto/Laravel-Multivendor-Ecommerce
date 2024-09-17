@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Georgia !important;
+
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.top-header{
+   height: 300px !important;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center !important;
+   padding:0px 30px;
+   background-image: url('../images/bannerimage3.jpg');
+   /* background-position: center center; */
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.top-header .row{
+    background-color: #000 !important;
+}
+
+.homecontactcontainer{
+    width:100%;
+    height:100%;
+    background-color: #4E01C1 !important;
+}
+.carousel-inner h5{
+font-family:Helvetica;
+}
+
+/* button hover */
+.btn-primary:hover{
+    border:1px solid #0D6EFD !important;
+    color:#0D6EFD !important;
+    background-color: #fff !important;
+}
+
+.featurecontainer img{
+    height: 100%;
+    width: 100%;
+}
+li.nav-item{
+list-style: none !important;
+}
